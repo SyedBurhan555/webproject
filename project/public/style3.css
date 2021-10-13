@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'lato';
+}
+.myBackground{
+	background-image: url("../images/image.7.jpg");
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+}
+.myCaption{
+	padding-top: 300px;
+	font-family: 'lato';
+	text-align: center
+}
+.nav-item .nav-link:hover{
+	color: #00E8E8 !important;
+}
+.active .nav-link{
+	color: #00E8E8 !important;	
+}
+.form-inline .menu-right-btn{
+	padding: 13px 46px;
+	margin-right: 4%;
+	background-color: transparent;
+	transition: all 300ms ease-in;
+}
+.form-inline .menu-right-btn:hover{
+	color:white;
+	background-color: #00E8E8;
+}
+.myMargin{
+	margin-top: 300px;
+}
+.myCard{
+	background-image: url("../images/image.3.jpg");
+	background-size: cover;
+/*	background-size: 100%;*/
+	height: 500px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.Myicon{
+	color: red;
+}
+.myIcon{
+	color: blue;
+}
+.Icon{
+	color:orangered;
+}
+.twitter{
+	color:lightblue;
+}
